@@ -11,11 +11,11 @@ const CartIcon = () => {
   return (
     <div
       onClick={() => navigate('/cart')}
-      style={{ position: 'relative', display: 'flex', alignItems: 'center' }}
+      className='cursor-pointer relative flex'
     >
       <button
         type='button'
-        className='mr-4 p-0 bg-transparent border-none outline-none cursor-pointer'
+        className='mr-4 p-0 bg-transparent border-none outline-none '
         aria-label='Cart'
       >
         <ShoppingCart size={24} />
