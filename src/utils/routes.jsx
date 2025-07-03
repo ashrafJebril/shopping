@@ -5,7 +5,6 @@ const Products = lazy(() => import('@/pages/Products'));
 const Cart = lazy(() => import('@/pages/Cart'));
 const ProductDetails = lazy(() => import('@/pages/ProductDetails'));
 
-// Only routes you want in the nav
 export const navRoutes = [
   {
     path: '/products',
@@ -15,7 +14,6 @@ export const navRoutes = [
   },
 ];
 
-// Other routes (not in nav)
 export const otherRoutes = [
   {
     path: '/cart',

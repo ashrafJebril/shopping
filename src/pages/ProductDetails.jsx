@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { Card, Button, Descriptions, Image, Spin } from 'antd';
 
