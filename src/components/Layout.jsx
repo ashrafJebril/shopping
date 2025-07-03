@@ -62,7 +62,7 @@ const LayoutComponent = () => {
           className='bg-white h-full sticky top-0'
         />
       </Drawer>
-      <Layout className='flex flex-col h-full min-h-0'>
+      <Layout className='flex flex-col h-full min-h-0 '>
         <HeaderBar onMenuClick={() => setDrawerOpen(true)} />
         <AppContent />
         <Footer className='text-center flex-shrink-0'>

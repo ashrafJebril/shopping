@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import { StyleProvider } from '@ant-design/cssinjs';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { CartProvider } from '@/contexts/cartProvider'; // Adjust path
+import { CartProvider } from '@/contexts/cartProvider';
 import { Toaster } from 'react-hot-toast';
 
 const queryClient = new QueryClient({

@@ -57,11 +57,14 @@ const InfiniteList = ({
           {data.map((item, index) => (
             <div
               key={index}
-              className='p-4 mb-2 bg-white rounded-lg shadow-md border cursor-pointer hover:bg-blue-50 transition-colors duration-200'
+              className='p-4 mb-2 bg-white rounded-lg shadow-md border cursor-pointer hover:bg-blue-50 transition-colors duration-200 w-full break-words'
               onClick={() => onRow?.(item)?.onClick?.()}
             >
               {columns.map(col => (
-                <div key={col.key} className='mb-2'>
+                <div
+                  key={col.key}
+                  className='mb-2 whitespace-normal break-words'
+                >
                   <strong>{col.title}: </strong>
                   {col.render
                     ? col.render(item[col.dataIndex], item)

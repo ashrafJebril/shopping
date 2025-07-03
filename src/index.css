@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Remove default margins and padding that cause scrolling */
 html,
 body,
 #root {
